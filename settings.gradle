@@ -1,0 +1,8 @@
+include 'spine-runtime-libgdx'
+include 'spine-o3d-extension'
+include 'overlap3d-runtime-libgdx'
+include 'overlap3d-common-api'
+project(':spine-runtime-libgdx').projectDir = new File(settingsDir, 'spine-runtimes/spine-libgdx/spine-libgdx')
+project(':overlap3d-runtime-libgdx').projectDir = new File(settingsDir, 'overlap3d-runtime-libgdx')
+project(':spine-o3d-extension').projectDir = new File(settingsDir, 'overlap3d-runtime-libgdx/extensions/spine')
+project(':overlap3d-common-api').projectDir = new File(settingsDir, 'overlap3d-common-api')

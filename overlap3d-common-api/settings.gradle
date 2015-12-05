@@ -1,0 +1,2 @@
+include 'overlap3d-runtime-libgdx'
+project(':overlap3d-runtime-libgdx').projectDir = new File(settingsDir, 'overlap3d-runtime-libgdx')
